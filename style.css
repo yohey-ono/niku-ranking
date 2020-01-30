@@ -1,0 +1,154 @@
+   	@charset "utf-8";
+
+	*{
+		box-sizing: border-box;
+		-webkit-appearance: none;
+	　　 word-break: break-word;
+	}
+	html, body, ul, ol, li, h1, h2, h3, h4, h5, h6, p,
+	 section, header, footer, nav, form, input, div, button {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		background-color: #fff;
+		font-family:  "游ゴシック Medium","Yu Gothic Medium","游ゴシック体",YuGothic,sans-serif;
+		font-size: 16px;
+		color: #333;
+	}
+	li, ol {
+		list-style: none;
+	}
+	a:link, a:visited, a:hover, a:active {
+		text-decoration: none;
+	}
+	img {
+		width: 100%;
+		height: auto;
+	}
+	.inner {
+		width: 1200px;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	.wrap {
+		overflow: hidden;
+	}
+	.title-unit {
+		margin: 30px auto;
+		background-color: #F6DE5A;
+		background-image: -webkit-gradient(linear, 0 0, 100% 0, color-stop(.5, #fff), color-stop(.5, transparent), to(transparent));
+		-webkit-background-size: 10px;
+	    width: 96.5%;
+	    transform: skewX(-20deg);
+	}
+	.rank-title {
+		font-size: 2rem;
+		text-align: center;
+		transform: skewX(20deg);
+		padding: 10px;
+		font-family: ten-mincho-text, serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+	.ranking-units {
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		justify-content:space-around;
+	}
+	.rank-number {
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0 0 5px;
+		font-size: 1.5em;
+	}
+	.ranking-items {
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+	.ranking-item {
+		margin: .5em 2% 1em;
+	}
+	.gold {
+		color: #C89A07;
+	}
+	.silver {
+		color: #898989;
+	}
+	.bronze {
+		color: #B28247;
+	}
+	.fa-crown {
+		margin: 0 5px 5px 0;
+		align-items: center
+	}
+	.number {
+		font-size: 1.2em;
+		font-family: garamond-premier-pro-caption, serif;
+		font-weight: 600;
+		font-style: normal;
+	}
+	.rank-text {
+		font-size: 1em;
+		margin: 0 0 .5em 0;
+	}
+	.rank-text:hover {
+	  text-decoration: underline; 
+	  cursor: pointer;
+	}
+	.rank-text a {
+	  color: #000;
+	  text-decoration: none;
+	}
+	.price-unit {
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		color: #bf0000;
+		justify-content: flex-end;
+		align-items: baseline;
+	}
+	.price-text {
+		font-size: 1.8em;
+	}
+	.free-shipping {
+		font-weight: bold;
+	    font-size: 1.2em;
+	    display: inline-block;
+	    margin: 0 0 0 1em;
+	}
+	.next-button {
+		margin: 30px 30px;
+		padding: 10px;
+		border: 2px solid #d3d3d3;
+		background-color: #fff;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.next-button > button {
+		border-style: none;
+		cursor: pointer;
+		background-color: transparent;
+	}s
+	.fa-caret-right {
+		color: #ffa500;
+		font-size: 2em;
+	}

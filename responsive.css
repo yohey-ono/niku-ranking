@@ -1,0 +1,56 @@
+
+  @media screen  and ( max-width:30em){
+    .title-unit {
+	    margin: 1.2rem auto;
+	}
+	.rank-title {
+	    padding: .5rem;
+	    font-size: 1.2rem;
+	}
+	.fa-crown {
+	    margin: 0 5px 5px 0;
+	    align-items: center;
+	}
+	.rank-unit {
+	}
+	.rank-number {
+	    font-size: 1em;
+	}
+	.ranking-item {
+		margin: .5em .5em .5em;
+	}
+	.rank-text {
+		font-size: .4em;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 4;
+		overflow: hidden;
+		margin: 0 0 1em 0;
+	}
+	.price-text {
+	    font-size: 1em;
+	    margin: 0;
+	    align-items: flex-end;
+	}
+	.free-shipping {
+		font-size: .6em;
+		margin: 0 0 0 .5em;
+    }
+    .next-button {
+	    margin: 30px 5px;
+	    padding: 5px;
+	}
+}
+@media screen and (max-width: 24em){
+	.rank-title {
+	    padding: .5rem;
+	    font-size: 1rem;
+	}
+	.price-unit {
+	    flex-direction: column;
+	    align-items: flex-end;
+	}
+	.free-shipping {
+	    font-size: .2em;
+	}
+}
